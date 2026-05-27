@@ -1,24 +1,19 @@
-# Quiz
+# Developer Survey
 
-Replace this readme with your own information about the project. You can include things like:
+A short survey built with React where you answer a few questions about your dev life — favorite part of coding, years of experience, preferred work setup, that kind of thing. When you hit submit, you get a summary of your answers.
 
-- Brief description of the assignment
-- How you approached the task, what tools and techniques you used, and how you planned it
-- If you had more time, what would be next?
-- How to run the project locally
+## About the project
+
+This was a project focused on practicing React state and controlled forms. I used `useState` to track the form values and a submitted flag to swap between showing the form and the results. Nothing too fancy, just getting comfortable with how React handles input.
+
+If I had more time I'd probably add some kind of personality result at the end — like "you're a 10x engineer" or "you're the person who actually writes tests." Maybe next time.
 
 ## View it live
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
 
+Link coming soon — will update once deployed to Cloudflare.
 
-## Getting Started with the Project
-
-### Dependency Installation & Startup Development Server
-
-Once cloned, navigate to the project's root directory and this project uses npm (Node Package Manager) to manage its dependencies.
-
-The command below is a combination of installing dependencies, opening up the project on VS Code and it will run a development server on your terminal.
+## Run it locally
 
 ```bash
-npm i && code . && npm run dev
+npm i && npm run dev
 ```
